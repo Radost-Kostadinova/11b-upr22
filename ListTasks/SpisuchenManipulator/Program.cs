@@ -9,7 +9,7 @@ namespace SpisuchenManipulator
     {
         static void Main(string[] args)
         {
-
+            //new
             List<int> nums = Console.ReadLine().Split(" ").Select(int.Parse).ToList();
             while (true)
             {
