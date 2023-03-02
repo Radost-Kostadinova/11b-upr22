@@ -41,11 +41,22 @@ namespace SpisuchenManipulator
 
                         break;
                     case "contains":
+                        element = int.Parse(input[1]);
+                        Console.WriteLine(nums.IndexOf(element));
                         break;
+                    
                     case "remove":
+                        index = int.Parse(input[1]);
+                        nums.RemoveAt(index);
                         break;
+
+
                     case "shift":
+                        var pos = int.Parse(input[1]);
+
                         break;
+
+
                     case "sumPairs":
                         break;
                 }
